@@ -1,8 +1,7 @@
-# Form Đăng Ký Khóa Học – ComboBox Binding, RadioButton, CheckBox, DateTimePicker, MaskedTextBox
+# Nguyễn Duy Tuấn - 24810310492
+## Form Đăng Ký Khóa Học – ComboBox Binding, RadioButton, CheckBox, DateTimePicker, MaskedTextBox
 
 Bài tập Windows Forms (C#): form đăng ký khóa học dùng nhiều loại control nhập liệu khác nhau, có binding dữ liệu cho ComboBox.
-
-## Nguyễn Duy Tuấn - 4810310492
 
 Sử dụng ComboBox (Binding Data), RadioButton, CheckBox, DateTimePicker & MaskedTextBox.
 
@@ -42,4 +41,5 @@ RegisterFormApp/
 - Bấm "Đăng ký" → nếu thiếu tên hoặc SĐT chưa đủ số, hiện cảnh báo; nếu hợp lệ, hiện `MessageBox` tổng hợp toàn bộ thông tin đã nhập.
 
 <!-- Chèn ảnh chụp màn hình giao diện thực tế vào đây, ví dụ: -->
-<!-- ![Register Form](screenshots/register-form.png) -->
+<img width="1215" height="572" alt="Screenshot 2026-09-24 153613" src="https://github.com/user-attachments/assets/401c23fc-18a7-433a-8d6d-48674f8933c1" />
+
