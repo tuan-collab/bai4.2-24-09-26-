@@ -1,22 +1,8 @@
 # Nguyễn Duy Tuấn - 24810310492
+
 ## Form Đăng Ký Khóa Học – ComboBox Binding, RadioButton, CheckBox, DateTimePicker, MaskedTextBox
 
 Bài tập Windows Forms (C#): form đăng ký khóa học dùng nhiều loại control nhập liệu khác nhau, có binding dữ liệu cho ComboBox.
-
-Sử dụng ComboBox (Binding Data), RadioButton, CheckBox, DateTimePicker & MaskedTextBox.
-
-## Yêu cầu và cách đáp ứng
-
-| Yêu cầu | Cách thực hiện |
-|---|---|
-| `mtxtPhone`: Mask SĐT `(000) 000-0000` | `mtxtPhone.Mask = "(000) 000-0000"`, kiểm tra `MaskCompleted` trước khi xử lý |
-| `dtpBirthDate`: Format Short (dd/MM/yyyy) | `Format = Custom`, `CustomFormat = "dd/MM/yyyy"` |
-| `cboCourse`: Nạp danh sách khóa học (DisplayMember, ValueMember) | Binding `List<Course>` với `DisplayMember = "CourseName"`, `ValueMember = "CourseId"` |
-| Nút "Đăng ký": tổng hợp và in thông tin lên MessageBox | `btnRegister_Click` gom tên, SĐT, ngày sinh, giới tính (RadioButton), khóa học, hình thức học (CheckBox) rồi hiển thị `MessageBox` |
-
-## Công nghệ
-
-- C# / .NET Windows Forms
 
 ## Cấu trúc project
 
@@ -27,13 +13,6 @@ RegisterFormApp/
 ├── Program.cs            # Điểm khởi chạy ứng dụng
 └── README.md
 ```
-
-## Cách chạy
-
-1. Mở Visual Studio → **File > New Project** → chọn **Windows Forms App (.NET)**.
-2. Đặt tên project là `RegisterFormApp` (trùng namespace trong code).
-3. Thay nội dung 3 file `Form1.cs`, `Form1.Designer.cs`, `Program.cs` bằng code trong repo.
-4. Nhấn **F5** để chạy.
 
 ## Kết quả
 
